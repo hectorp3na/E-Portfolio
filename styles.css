@@ -32,14 +32,26 @@ li {
     flex: 1;
 }
 
+.container {
+    padding: 50px 0:
+}
+
 .row {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
 }
 
+section:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
 .text--purple {
     color: #6030b1;
+}
+
+.section__title {
+    margin-bottom: 20px;
 }
 
 /* Navigation Bar*/
@@ -113,15 +125,16 @@ flex-direction: column;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
     margin-bottom: 28px;
+    margin-left: 40%;
 }
 
 .about-me__picture {
     width: 100%;
+
     
     /*improving my own pictire */
     transform: scale(1.5);
-    padding-top: 8px;
-    
+    margin-top: -30px;
 }
 
 .about-me__info--title {
@@ -146,4 +159,27 @@ flex-direction: column;
 }
 .about-me__img {
     width: 100%;
+}
+
+/*Tech - Stack */
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.language {
+    width: 25%;
+}
+
+.language__img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language__list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
